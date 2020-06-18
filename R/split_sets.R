@@ -14,8 +14,6 @@
 #' @examples 
 #' split_dfs <- split(mtcars, props = c(0.6, 0.4))
 
-
-
 split_sets <- function(x, props = c(0.7,0.3), validation = FALSE) {
 
     # validate arguments
