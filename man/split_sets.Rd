@@ -2,7 +2,7 @@
 % Please edit documentation in R/split_sets.R
 \name{split_sets}
 \alias{split_sets}
-\title{Split a dataframe into training, test and (if required) validation sets.}
+\title{Split a dataframe into training, test and (if required) validation sets}
 \usage{
 split_sets(x, props = c(0.7, 0.3), validation = FALSE)
 }
@@ -24,7 +24,7 @@ A list of dataframes of length 2 or 3, depending on whether `validation` is set 
 FALSE or TRUE.
 }
 \description{
-Split a dataframe into training, test and (if required) validation sets.
+Split a dataframe into training, test and (if required) validation sets
 }
 \examples{
 split_dfs <- split(mtcars, props = c(0.6, 0.4))

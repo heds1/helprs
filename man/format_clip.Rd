@@ -2,7 +2,7 @@
 % Please edit documentation in R/format_clip.R
 \name{format_clip}
 \alias{format_clip}
-\title{Convert backslashes to forward slashes directly from the clipboard.}
+\title{Convert backslashes to forward slashes directly from the clipboard}
 \usage{
 format_clip()
 }
@@ -10,5 +10,5 @@ format_clip()
 The string copied to the clipboard is returned with backslashes
 }
 \description{
-Convert backslashes to forward slashes directly from the clipboard.
+Convert backslashes to forward slashes directly from the clipboard
 }
